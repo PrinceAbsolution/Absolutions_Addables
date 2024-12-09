@@ -1,0 +1,18 @@
+{
+  "creativetab.weapons": "Weapons",
+
+
+  "item.absolutions_addables.wooden_longsword": "Wooden Longsword",
+  "item.absolutions_addables.stone_longsword": "Stone Longsword",
+  "item.absolutions_addables.iron_longsword": "Iron Longsword",
+  "item.absolutions_addables.golden_longsword": "Golden Longsword",
+  "item.absolutions_addables.diamond_longsword": "Diamond Longsword",
+  "item.absolutions_addables.netherite_longsword": "Netherite Longsword",
+
+  "item.absolutions_addables.wooden_estoc": "Wooden Estoc",
+  "item.absolutions_addables.stone_estoc": "Stone Estoc",
+  "item.absolutions_addables.iron_estoc": "Iron Estoc",
+  "item.absolutions_addables.golden_estoc": "Golden Estoc",
+  "item.absolutions_addables.diamond_estoc": "Diamond Estoc",
+  "item.absolutions_addables.netherite_estoc": "Netherite Estoc"
+}

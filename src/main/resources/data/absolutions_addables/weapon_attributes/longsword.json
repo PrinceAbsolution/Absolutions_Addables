@@ -1,0 +1,29 @@
+{
+  "attributes": {
+    "attack_range": 3,
+    "two_handed": false,
+    "category": "longsword",
+    "attacks": [
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 150,
+        "upswing": 0.6,
+        "animation": "absolutions_addables:longsword_attack_a",
+        "swing_sound": {
+          "id": "bettercombat:sword_slash"
+        }
+      },
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 150,
+        "upswing": 0.6,
+        "animation": "absolutions_addables:longsword_attack_b",
+        "swing_sound": {
+          "id": "bettercombat:sword_slash"
+        }
+      }
+    ]
+  }
+}
