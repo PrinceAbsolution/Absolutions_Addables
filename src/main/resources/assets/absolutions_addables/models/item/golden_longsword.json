@@ -1,8 +1,0 @@
-     {
-       "parent": "absolutions_addables:item/longsword",
-       "texture_size": [22, 22],
-       "textures": {
-         "0": "absolutions_addables:item/golden_longsword",
-         "particle": "absolutions_addables:item/golden_longsword"
-       }
-     }

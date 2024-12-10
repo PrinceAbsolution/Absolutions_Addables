@@ -1,6 +1,7 @@
 package net.KK.absolutions_addables.item;
 
 import net.KK.absolutions_addables.Absolutions_addables;
+import net.KK.absolutions_addables.item.custom.HammerItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tiers;
@@ -39,6 +40,18 @@ public class ModItems {
     public static final RegistryObject<Item> NETHERITE_ESTOC = ITEMS.register("netherite_estoc",
             () -> new SwordItem(Tiers.NETHERITE, 2, -2.1f, new Item.Properties().durability(2031)));
 
+    public static final RegistryObject<Item> WOODEN_HAMMER = ITEMS.register("wooden_hammer",
+            () -> new HammerItem(Tiers.WOOD, 3.5f, -2.6f, new Item.Properties().durability(177)));
+    public static final RegistryObject<Item> STONE_HAMMER = ITEMS.register("stone_hammer",
+            () -> new HammerItem(Tiers.STONE, 3.5f, -2.6f, new Item.Properties().durability(393)));
+    public static final RegistryObject<Item> IRON_HAMMER = ITEMS.register("iron_hammer",
+            () -> new HammerItem(Tiers.IRON, 3.5f, -2.6f, new Item.Properties().durability(768)));
+    public static final RegistryObject<Item> GOLDEN_HAMMER = ITEMS.register("golden_hammer",
+            () -> new HammerItem(Tiers.GOLD, 3.5f, -2.6f, new Item.Properties().durability(96)));
+    public static final RegistryObject<Item> DIAMOND_HAMMER = ITEMS.register("diamond_hammer",
+            () -> new HammerItem(Tiers.DIAMOND, 3.5f, -2.6f, new Item.Properties().durability(4683)));
+    public static final RegistryObject<Item> NETHERITE_HAMMER = ITEMS.register("netherite_hammer",
+            () -> new HammerItem(Tiers.NETHERITE, 3.5f, -2.6f, new Item.Properties().durability(6093)));
 
 
     public static void register(IEventBus eventBus) {

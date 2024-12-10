@@ -14,5 +14,12 @@
   "item.absolutions_addables.iron_estoc": "Iron Estoc",
   "item.absolutions_addables.golden_estoc": "Golden Estoc",
   "item.absolutions_addables.diamond_estoc": "Diamond Estoc",
-  "item.absolutions_addables.netherite_estoc": "Netherite Estoc"
+  "item.absolutions_addables.netherite_estoc": "Netherite Estoc",
+
+  "item.absolutions_addables.wooden_hammer": "Wooden Hammer",
+  "item.absolutions_addables.stone_hammer": "Stone Hammer",
+  "item.absolutions_addables.iron_hammer": "Iron Hammer",
+  "item.absolutions_addables.golden_hammer": "Golden Hammer",
+  "item.absolutions_addables.diamond_hammer": "Diamond Hammer",
+  "item.absolutions_addables.netherite_hammer": "Netherite Hammer"
 }

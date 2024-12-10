@@ -1,7 +1,0 @@
-{
-	"parent": "absolutions_addables:item/estoc",
-	"textures": {
-		"0": "absolutions_addables:item/diamond_estoc",
-		"particle": "absolutions_addables:item/diamond_estoc"
-	}
-}

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_stone_sword": {
+    "has_cobblestone": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:stone_sword"
+              "minecraft:cobblestone"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_stone_sword",
+      "has_cobblestone",
       "has_the_recipe"
     ]
   ],

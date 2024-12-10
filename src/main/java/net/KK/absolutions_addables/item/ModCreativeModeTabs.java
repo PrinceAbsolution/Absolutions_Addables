@@ -25,13 +25,20 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DIAMOND_ESTOC.get());
                         output.accept(ModItems.NETHERITE_ESTOC.get());
 
-
                         output.accept(ModItems.WOODEN_LONGSWORD.get());
                         output.accept(ModItems.STONE_LONGSWORD.get());
                         output.accept(ModItems.IRON_LONGSWORD.get());
                         output.accept(ModItems.GOLDEN_LONGSWORD.get());
                         output.accept(ModItems.DIAMOND_LONGSWORD.get());
                         output.accept(ModItems.NETHERITE_LONGSWORD.get());
+
+                        output.accept(ModItems.WOODEN_HAMMER.get());
+                        output.accept(ModItems.STONE_HAMMER.get());
+                        output.accept(ModItems.IRON_HAMMER.get());
+                        output.accept(ModItems.GOLDEN_HAMMER.get());
+                        output.accept(ModItems.DIAMOND_HAMMER.get());
+                        output.accept(ModItems.NETHERITE_HAMMER.get());
+
                     }).build());
 
 
