@@ -1,0 +1,7 @@
+{
+  "parent": "absolutions_addables:item/longsword",
+  "textures": {
+    "0": "absolutions_addables:item/stone_longsword",
+    "particle": "absolutions_addables:item/stone_longsword"
+  }
+}

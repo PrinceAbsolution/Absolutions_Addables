@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "  C",
+    " C ",
+    "S  "
+  ],
+  "result": {
+    "item": "absolutions_addables:stone_estoc"
+  },
+  "show_notification": true
+}

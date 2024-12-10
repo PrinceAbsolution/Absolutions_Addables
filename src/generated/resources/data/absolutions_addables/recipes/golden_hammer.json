@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GSG",
+    " S "
+  ],
+  "result": {
+    "item": "absolutions_addables:golden_hammer"
+  },
+  "show_notification": true
+}

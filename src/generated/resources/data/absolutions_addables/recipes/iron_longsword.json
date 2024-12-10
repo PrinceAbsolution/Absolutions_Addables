@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "tag": "forge:ingots/iron"
+    },
+    "S": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "pattern": [
+    "   ",
+    " A ",
+    "S  "
+  ],
+  "result": {
+    "item": "absolutions_addables:iron_longsword"
+  },
+  "show_notification": true
+}

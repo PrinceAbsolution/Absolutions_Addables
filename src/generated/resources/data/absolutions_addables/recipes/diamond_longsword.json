@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "tag": "forge:gems/diamond"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    "   ",
+    " A ",
+    "S  "
+  ],
+  "result": {
+    "item": "absolutions_addables:diamond_longsword"
+  },
+  "show_notification": true
+}

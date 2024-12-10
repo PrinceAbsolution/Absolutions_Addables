@@ -1,0 +1,7 @@
+{
+  "parent": "absolutions_addables:item/hammer",
+  "textures": {
+    "0": "absolutions_addables:item/netherite_hammer",
+    "particle": "absolutions_addables:item/netherite_hammer"
+  }
+}
