@@ -39,6 +39,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DIAMOND_HAMMER.get());
                         output.accept(ModItems.NETHERITE_HAMMER.get());
 
+                        output.accept(ModItems.TEST_WEAPON.get());
+
                     }).build());
 
 

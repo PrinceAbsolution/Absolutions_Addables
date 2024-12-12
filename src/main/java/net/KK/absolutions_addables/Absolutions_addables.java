@@ -1,5 +1,8 @@
 package net.KK.absolutions_addables;
 
+
+import net.KK.absolutions_addables.bettercombat.CustomDamageHandler;
+import net.KK.absolutions_addables.commands.TestWeaponJsonCommand;
 import net.KK.absolutions_addables.block.ModBlocks;
 import net.KK.absolutions_addables.item.ModCreativeModeTabs;
 import net.KK.absolutions_addables.item.ModItems;
@@ -16,6 +19,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Absolutions_addables.MODID)
@@ -41,6 +45,14 @@ public class Absolutions_addables {
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
+
+        MinecraftForge.EVENT_BUS.register(CustomDamageHandler.class);
+
+        MinecraftForge.EVENT_BUS.addListener(this::registerCommandsOnServerStarting);
+    }
+
+    private void registerCommandsOnServerStarting(ServerStartingEvent event) {
+        TestWeaponJsonCommand.register(event.getServer().getCommands().getDispatcher());
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

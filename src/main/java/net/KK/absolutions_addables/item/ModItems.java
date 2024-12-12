@@ -53,6 +53,10 @@ public class ModItems {
     public static final RegistryObject<Item> NETHERITE_HAMMER = ITEMS.register("netherite_hammer",
             () -> new HammerItem(Tiers.NETHERITE, 3.5f, -2.6f, new Item.Properties().durability(6093)));
 
+    public static final RegistryObject<Item> TEST_WEAPON = ITEMS.register("test_weapon",
+            () -> new SwordItem(Tiers.IRON, 4, -2.8f, new Item.Properties().durability(59)));
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

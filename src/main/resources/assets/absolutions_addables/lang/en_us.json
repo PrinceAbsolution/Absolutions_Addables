@@ -21,5 +21,7 @@
   "item.absolutions_addables.iron_hammer": "Iron Hammer",
   "item.absolutions_addables.golden_hammer": "Golden Hammer",
   "item.absolutions_addables.diamond_hammer": "Diamond Hammer",
-  "item.absolutions_addables.netherite_hammer": "Netherite Hammer"
+  "item.absolutions_addables.netherite_hammer": "Netherite Hammer",
+
+  "item.absolutions_addables.test_weapon": "Test Weapon"
 }

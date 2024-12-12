@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-09T02:00:25.8505827	Item Models: absolutions_addables
+// 1.20.1	2024-12-10T18:17:02.7494097	Item Models: absolutions_addables
 22e07b8c98cbb52e271e953e36b36d53b8e2e87a assets/absolutions_addables/models/item/diamond_estoc.json
 2945b323e540ffffdf2178e00769d668cea6e404 assets/absolutions_addables/models/item/diamond_hammer.json
 23e4ff0b8f9b1623654c626d191f054429438304 assets/absolutions_addables/models/item/diamond_longsword.json
@@ -14,6 +14,7 @@ f0e83b2620a8ee29c50dcbbf0d5ee42c35d594ac assets/absolutions_addables/models/item
 fa236f4bf0184ac970ea78dcc0251998b369572e assets/absolutions_addables/models/item/stone_estoc.json
 69becb7ead85fde6bb2fe618fbebeac1c3069728 assets/absolutions_addables/models/item/stone_hammer.json
 5f6073dade19980890c7874a864c547f5413dbbb assets/absolutions_addables/models/item/stone_longsword.json
+d6316191f6cd42eb35d0a31c6a2c3b50c99d0d1b assets/absolutions_addables/models/item/test_weapon.json
 6a566bc83f793e6aefd0ecf95a698a70bedea787 assets/absolutions_addables/models/item/wooden_estoc.json
 7c7d25c1ffdbb1495931f2a2f29d4f1ffce36272 assets/absolutions_addables/models/item/wooden_hammer.json
 e0c80f39212f433d5bbcfc233bd183995bfe08e4 assets/absolutions_addables/models/item/wooden_longsword.json

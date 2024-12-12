@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "absolutions_addables:item/test_weapon"
+  }
+}

@@ -46,6 +46,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         longswordItem(ModItems.DIAMOND_LONGSWORD);
         longswordItem(ModItems.NETHERITE_LONGSWORD);
 
+        handheldItem(ModItems.TEST_WEAPON);
+
     }
 
 
